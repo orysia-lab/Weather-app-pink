@@ -1,0 +1,216 @@
+body {
+
+    font-family: "Poppins", sans-serif;
+}
+          h1 {
+              text-align: left;
+              font-weight: 900;
+              font-size: 20px;
+              line-height: 48px;
+              padding: 0 0 24px;
+          }
+    
+          h1:hover {
+              color: #0e396d;
+              text-transform: uppercase;
+          }
+
+
+.container {
+    max-width: 50%;
+    margin: 30px auto;
+    position: center;
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0px 6px 19px rgba(0, 0, 0, 0.2);
+}
+
+.input-details {
+    margin: 25px 0 25px 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-box {
+    padding: 10px 20px;
+    width: 50%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all 200ms ease-in-out;
+    box-shadow: 0px 6px 19px rgba(0, 0, 0, 0.2);
+}
+
+.input-box:hover {
+    border-color: rgba(120, 52, 15, 0.967);
+}
+
+.search-btn,
+.location-btn {
+    padding: 10px 20px;
+    background-color: white;
+    width: 13%;
+    border: none;
+    margin-left: 5px;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+    box-shadow: 0px 6px 19px rgbargba(5, 27, 99, 0.479)
+}
+
+.search-icon,
+.location-icon {
+    font-size: 15px;
+    color: #2ea3ba;
+}
+
+.search-btn:hover{
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.3);
+    color:#236197;
+}
+
+.city-details {
+    margin-left: 30px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+color: #712004;
+}
+
+p .city {
+    font-size: 24px;
+}
+.weather-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.city-details .date {
+    color:#9d6b0d;
+    font-size: 25px;
+}
+
+.weather-icon {
+    color:rgb(48, 19, 6);
+    padding: 30px 20px;
+    display:flex;
+    align-items:left;
+    justify-content: space-between;
+}
+
+.weather-icon .img {
+    color: #3c8aff;
+}
+
+.weather-icon .celcius {
+    font-size: 44px;
+    font-weight: 800;
+    color:#c34a0d;
+}
+
+.link-style {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.link-style a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 242, 0, 0.774);
+}
+
+.link-style .active {
+    text-decoration: underline;
+    box-shadow: 0px 6px 19px rgba(0, 0, 0, 0.2);
+    color:#3c8aff;
+}
+
+.weather-info {
+    padding: 25px 10px;
+    font-size: 20px;
+}
+
+.weather-info ul {
+    list-style-type: none;
+}
+
+.wind-info {
+    color: rgb(46, 103, 147);
+    }
+    
+.humidity-info {
+    color: rgb(45, 106, 106);
+    }
+.weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forecast-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px auto;
+    color:#073d33;
+    margin-bottom: 35px;
+}
+
+.forecast-container .days-temp {
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);    padding: 10px 15px 40 px;
+    width: 90px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.forecast-container .days-temp .icon .weather-forecast-temperatures {
+    display:flexbox;
+    flex-direction:column;
+    align-items: center;
+}
+
+.weather-forecast {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.weather-forecast-temp-min {
+    opacity: 0.4;
+}
+
+.weather-forecast-temperatures {
+    text-decoration-color: #236197;
+}
+
+
+.suncloud-icon {
+    color:rgb(199, 142, 76;
+}
+
+.sun-icon {
+    color: rgb(255, 217, 0);}
+
+.cloud-icon {
+    color: rgb(108, 182, 235);
+}
+.sunrain-icon {
+    color: rgb(8, 100, 100);
+}
+
+.coder-details:hover {
+    color: #096f3c;
+    display: flex;
+    margin: 0 auto;
+    }
+ 
+.coder {
+    width: 22px;
+}
